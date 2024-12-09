@@ -1,5 +1,8 @@
 body {
     font-family: Roboto;
+    margin: 0px;
+    height: 100vh;
+ 
 }
 
 .segment-1 {
@@ -8,6 +11,7 @@ body {
     flex: 1;
     background-color: #1f2937;
     flex-direction: column;
+   
     
 
 }
@@ -76,7 +80,9 @@ ul {
 .segment-1-text-content {
     display: flex;
     justify-content: space-between;
-    margin: 48px;
+    
+    padding: 32px;
+    padding-bottom: 0px;
 }
 
 .hero-text {
@@ -104,11 +110,13 @@ ul {
 .image-placeholder-text {
     display: flex;
     color: #e5e7eb;
-    width: 256px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     background-color: rgb(111, 138, 138);
     justify-content: center;
     align-items: center;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 button {
@@ -119,6 +127,12 @@ button {
     border: none;
     border-radius: 5px;
     
+}
+
+.segment-1-button {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 32px;
 }
 
 .segment-2 {
@@ -140,18 +154,26 @@ button {
 
 .segment-2-selections {
     display: flex;
-    gap: 18px;
+    gap: 64px;
     margin-left: 128px;
     margin-right: 128px;
     margin-bottom: 64px;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-1-box, .item-2-box, .item-3-box, .item-4-box{
     border: solid #3882f6;
     border-radius: 10px;
     height: 128px;
-    margin: 18px;
+    width: 140px;
+    margin-bottom: 18px;
+   
+   
     
+}
+.item-1, .item-2, .item-3, .item-4 {
+    width: 140px;
 }
 
 .segment-3{
